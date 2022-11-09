@@ -53,7 +53,7 @@ dkms.conf
 
 
 
-ft_printf.h
+
 ft_putchar.c
 ft_putstr.c
 ft_putnbr.c
