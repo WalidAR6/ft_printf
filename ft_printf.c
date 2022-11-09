@@ -6,11 +6,11 @@
 /*   By: waraissi <waraissi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 18:43:25 by waraissi          #+#    #+#             */
-/*   Updated: 2022/11/09 20:13:33 by waraissi         ###   ########.fr       */
+/*   Updated: 2022/11/09 20:14:20 by waraissi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 int ft_printf(const char *str, ...)
 {
