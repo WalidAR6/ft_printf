@@ -50,3 +50,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+
+ft_printf.h
+ft_putchar.c
+ft_putstr.c
+ft_putnbr.c
+ft_putnbr_unsigned.c
+ft_putnbr_base.c
+ft_putnbr_base_lower.c
+ft_putnbr_base_upper.c
