@@ -6,11 +6,11 @@
 /*   By: waraissi <waraissi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 18:42:25 by waraissi          #+#    #+#             */
-/*   Updated: 2022/11/09 18:48:58 by waraissi         ###   ########.fr       */
+/*   Updated: 2022/11/09 21:33:00 by waraissi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 void ft_putnbr_unsigned(unsigned int nbr, int *res)
 {
