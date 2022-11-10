@@ -6,13 +6,13 @@
 /*   By: waraissi <waraissi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 18:41:33 by waraissi          #+#    #+#             */
-/*   Updated: 2022/11/10 16:15:10 by waraissi         ###   ########.fr       */
+/*   Updated: 2022/11/10 17:33:03 by waraissi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_putchar(char c , int *res)
+void	ft_putchar(char c, int *res)
 {
 	write(1, &c, 1);
 	*res = *res + 1;
