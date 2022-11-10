@@ -21,7 +21,7 @@ all: ${NAME}
 
 ${NAME}: ${OBJ}
 	${AR} ${NAME} ${OBJ}
-	
+
 %.o: %.c ft_printf.h
 	${CC} ${FLAGS} -c $<
 
