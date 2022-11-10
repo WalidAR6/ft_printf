@@ -6,7 +6,7 @@
 /*   By: waraissi <waraissi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 18:43:25 by waraissi          #+#    #+#             */
-/*   Updated: 2022/11/10 17:32:00 by waraissi         ###   ########.fr       */
+/*   Updated: 2022/11/10 22:38:34 by waraissi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,8 @@ int	ft_printf(const char *str, ...)
 	int		res;
 
 	res = 0;
+	if (write(1, "", 0) == -1)
+		return (-1);
 	va_start (args, str);
 	while (*str)
 	{
@@ -61,4 +63,9 @@ int	ft_printf(const char *str, ...)
 	}
 	va_end (args);
 	return (res);
+}
+#include<stdio.h>
+int main()
+{
+	ft_printf("%","hello");
 }
