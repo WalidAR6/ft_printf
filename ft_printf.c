@@ -6,7 +6,7 @@
 /*   By: waraissi <waraissi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 18:43:25 by waraissi          #+#    #+#             */
-/*   Updated: 2022/11/10 22:38:34 by waraissi         ###   ########.fr       */
+/*   Updated: 2022/11/10 23:39:34 by waraissi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,17 +55,12 @@ int	ft_printf(const char *str, ...)
 				break ;
 			}
 			else
-				conditions(str, &res, args);
+				conditions(str++, &res, args);
 		}
 		else
-			ft_putchar (*str, &res);
-		str++;
+			ft_putchar (*str++, &res);
 	}
 	va_end (args);
 	return (res);
 }
-#include<stdio.h>
-int main()
-{
-	ft_printf("%","hello");
-}
+
