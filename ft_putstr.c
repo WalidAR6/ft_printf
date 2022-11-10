@@ -6,7 +6,7 @@
 /*   By: waraissi <waraissi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 18:41:53 by waraissi          #+#    #+#             */
-/*   Updated: 2022/11/10 17:26:59 by waraissi         ###   ########.fr       */
+/*   Updated: 2022/11/10 18:16:45 by waraissi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_putstr(char *s, int *res)
 	i = 0;
 	if (!s)
 	{
-		write(1,"(null)",6);
+		write(1, "(null)", 6);
 		*res += 6;
 	}
 	else
