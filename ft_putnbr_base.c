@@ -6,7 +6,7 @@
 /*   By: waraissi <waraissi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 18:42:39 by waraissi          #+#    #+#             */
-/*   Updated: 2022/11/09 20:17:11 by waraissi         ###   ########.fr       */
+/*   Updated: 2022/11/10 17:29:22 by waraissi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 void ft_putnbr_base(unsigned long long nbr, int *res)
 {
 	char base[] = "0123456789abcdef";
+	
 	if (nbr < 16)
 			ft_putchar(base[nbr], res);
 	else
