@@ -6,7 +6,7 @@
 /*   By: waraissi <waraissi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 18:43:25 by waraissi          #+#    #+#             */
-/*   Updated: 2022/11/10 23:41:07 by waraissi         ###   ########.fr       */
+/*   Updated: 2022/11/11 20:19:54 by waraissi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ void	conditions(const char *str, int *res, va_list	args)
 		ft_putnbr_base_upper (va_arg(args, unsigned int), res);
 	else if (*str == '%')
 		ft_putchar('%', res);
+	else
+		ft_putchar(*str, res);
 }
 
 int	ft_printf(const char *str, ...)
