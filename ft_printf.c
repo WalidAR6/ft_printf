@@ -6,7 +6,7 @@
 /*   By: waraissi <waraissi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 18:43:25 by waraissi          #+#    #+#             */
-/*   Updated: 2022/11/11 20:19:54 by waraissi         ###   ########.fr       */
+/*   Updated: 2022/11/12 21:49:02 by waraissi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,6 @@ int	ft_printf(const char *str, ...)
 			if (!*str)
 			{
 				write(1, "", 1);
-				break ;
 			}
 			else
 				conditions(str++, &res, args);
